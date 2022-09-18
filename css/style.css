@@ -1,0 +1,92 @@
+/*Селектор тегу 
+* {
+    color:rgb(red, green, blue)
+}
+*/
+/*
+Селектор тегу
+*/
+div {
+    color:aqua;
+}
+
+h2 {
+    color:rgb(234, 24, 24);
+}
+div > ul {
+    color:blue;
+}
+a {
+    color:black;
+}
+ul {
+    color:gray;
+}
+/* Селектор класу*/
+.title-top {
+    color:darkgreen;
+}
+.text-top {
+    color:red;
+}
+.top-green {
+    color:green;
+}
+.origin-red {
+    color:red;
+}
+.title-origin {
+    color:chocolate;
+}
+.violet {
+    color:violet;
+}
+.origin-red > p {
+    color:crimson;
+}
+.desc {
+    color:cornflowerblue;
+}
+.title-standard {
+    color:darkorange;
+}
+.item {
+    color:deeppink;
+}
+.list {
+    color:gold;
+}
+.text-health {
+    color:darkred;
+}
+.item-standard {
+    color:chartreuse;
+}
+/* Звертаємось до всіх тегів з двома класами*/
+.item.list {
+    color: darkgreen;
+}
+/*Селектор ID */
+#origin {
+    color:blue;
+}
+#standard {
+    color:black;
+}
+#health {
+    color:blue;
+}
+#nature {
+    color:black;
+}
+#choice {
+    color:brown;
+}
+/* Звертаємося до Р тільки першого рівня вкладеності*/
+.pappy + p {
+    color:darkgreen;
+}
+/*Звертаємось до всіх Р тільки якщо у їх батьківськіх елементах є клас pappy*/
+.pappy p {
+    color:hotpink;
+}
